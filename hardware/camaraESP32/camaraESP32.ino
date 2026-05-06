@@ -7,8 +7,8 @@
 #include <ArduinoJson.h>
 
 // ================== CONFIG WIFI ==================
-const char* ssid = "SISTELCEL_CACERES_GALLEGOS";
-const char* password = "capi2007";
+const char* ssid = "Bachillerato-UETS";
+const char* password = "Ecuador2026.";
 
 //CAMBIA ESTA IP (tu computadora con Flask)
 //const char* serverURL = "http://192.168.1.9:5000/data_oled";
