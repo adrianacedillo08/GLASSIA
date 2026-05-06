@@ -6,10 +6,7 @@ import requests
 import io
 import time
 
-# ==========================
 # INICIALIZACIÓN
-# ==========================
-
 app = Flask(__name__, template_folder='.', static_folder='.', static_url_path='')
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -20,7 +17,7 @@ MODEL_PATH = "modelo_completo_resnet18.pth"
 #IP DE TU ESP32-CAM
 #ESP32_CAM_URL = "http://192.168.18.174/capture"
 #ESP32_CAM_URL = "http://192.168.1.10/capture"
-ESP32_IP = "192.168.0.132"  # SOLO esto cambias
+ESP32_IP = "192.168.34.1" 
 ESP32_CAM_URL = f"http://{ESP32_IP}/capture"
 
 MIN_CONFIDENCE = 65.0
